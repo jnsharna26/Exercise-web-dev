@@ -157,3 +157,61 @@ border-radius: 15px;
 .card-description{
   padding: 5px 24px 16px;
 }
+.section-title{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 55px;
+  color:white;
+  text-align: center;
+  
+}
+.section-description{
+margin-top: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  font-size: 0.87rem;
+}
+.section-habit{
+max-width: 1044px;
+height: 452px;
+}
+.habit{
+width: 600px;
+height: 120px;
+  
+margin: 0 auto;
+text-align: center;
+align-items: center;
+
+}
+.various-img{
+  margin-top: 30px;
+
+display: flex;
+}
+.various-img,img{
+ height: 180px;
+  width: 180px;
+  
+  border-radius: 50%;
+margin-left: 60px;
+ 
+gap: 30px;
+}
+.img-container{
+  width: 260px;
+  height: 270px;
+  
+}
+.img-title{
+  font-weight: 600;
+  font-size: 1.12rem;
+  color:white;
+  text-align: center;
+}
+.img-description{
+  font-weight: 400;
+  font-size: 0.87rem;
+text-align: center;
+}
