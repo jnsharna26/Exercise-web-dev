@@ -144,6 +144,7 @@ border: 1px solid rgba(255, 255, 255, 0.1)
 ; 
 border-radius: 15px;
 right: 30px;
+/* box-shadow: 20px 20px 20px; */
 }
 .card-2{
   
@@ -214,4 +215,68 @@ gap: 30px;
   font-weight: 400;
   font-size: 0.87rem;
 text-align: center;
+}
+/* run related */
+.section-run{
+  max-width: 1066px;
+  height: 370px;
+ border: 1px solid rgba(255, 255, 255, 0.1)
+; 
+border-radius: 15px;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+.run-container{
+  margin-top:30px;
+  width:400px;
+height: 200px;
+
+padding: 20px;
+
+}
+.run{
+  display: flex;
+  justify-content: space-between;
+}
+.run-img img{
+width: 350px;
+ height: 312px;
+  margin-right: 50px;
+  margin-top: 50px;
+ 
+border-radius: 20px;
+opacity: 0px;
+
+}
+.calculator{
+  width: 500px;
+  height: 100px;
+ margin: 0 auto;
+}
+/* bmi table */
+.bmi{
+ 
+}
+.bmi-table{
+  margin-top: 100px;
+}
+.bmi-title{
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: white;
+}
+table{
+  width: 300px;
+  height:200px ;
+  margin-top:30px;
+}
+th{
+  text-align: left;
+}
+table,th,td{
+  border: 1px solid #757575;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 10px;
 }
