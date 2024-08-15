@@ -18,7 +18,7 @@
 display: flex;
 }
 .text-light-gray{
-  color: #757575;
+  color:rgba(255, 255, 255, 0.5);
 }
 
 /* header styles */
@@ -89,7 +89,7 @@ margin-top: 50px;
   font-family: 'miama';
 }
 .banner-description{
-  color:#757575;
+  
   font-size: 0.87rem;
 }
 .banner-img img{
@@ -155,6 +155,16 @@ right: 30px;
 top:566px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 15px;
+
+}
+.dot{
+  width: 25px;
+  height:25px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  margin-top: 15px;
+ margin-right: 5px;
 }
 .card-description{
   padding: 5px 24px 16px;
@@ -414,4 +424,61 @@ margin-left: 200px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.1);
+;
 }
+footer{
+  max-width: 1440px;
+  height: 480px;
+  margin: 0 auto;
+  background-color:rgba(255, 255, 255, 0.1);
+padding: 66px 190px 79px 190px;
+}
+
+.footer-links{
+ margin-top: 20px;
+  
+  
+}
+.instruction{
+width: 443px;
+height: 176px;
+margin-right: 30px;
+
+}
+.ins-description{
+color: rgba(255, 255, 255, 0.5);
+}
+.link-list{
+list-style: none;
+}
+.link{
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.list-1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.copy-right{
+  text-align: center;
+  /* margin-top: 100px; */
+  color: rgba(255, 255, 255, 0.5);
+;
+}
+#horizontal-line{ 
+
+     display: block;
+     margin-top:50px;
+     margin-bottom: 30px;
+     width:96%;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: inset;
+     border-width: 1px;
+     border-color: rgba(255, 255, 255, 0.1)
+;
+
+
+     } 
