@@ -20,6 +20,7 @@ display: flex;
 .text-light-gray{
   color: #757575;
 }
+
 /* header styles */
 .bg-color{
   background: linear-gradient(180deg,rgba(19,19,19,0.747)0%,rgba(30,30,30)50%,rgba(1,1,1,0.719)100%);
@@ -176,20 +177,22 @@ margin-top: 20px;
 .section-habit{
 max-width: 1044px;
 height: 452px;
+/* margin-left: 198px;
+margin-right: 198px; */
 }
 .habit{
 width: 600px;
 height: 120px;
   
-margin: 0 auto;
-text-align: center;
-align-items: center;
+margin-left:300px;
+/* text-align: center; */
+/* align-items: center; */
 
 }
 .various-img{
   margin-top: 30px;
 
-display: flex;
+
 }
 .various-img,img{
  height: 180px;
@@ -332,10 +335,83 @@ width:577px;
 .team{
   max-width: 1070px;
   height: 780px;
+  margin:0 auto;
 }
 .team-container{
 width: 670px;
 height: 120px;
  margin-top: 200px;
-margin-left: 350px;
+margin-left: 200px;
+}
+/* images */
+.image-1{
+  width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.image-2{
+  width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.image-3{
+   width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.image-4{
+   width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.image-5{
+   width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.image-6{
+   width: 326px;
+  height: 272px;
+  background-image: url("../images/trainer6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+.images-title{
+  color:white;
+ /* padding: 212px 190px 36px 19px; */
+ 
+}
+.image-container{
+ 
+  display: flex;
+  /* margin-left: 80px; */
+ 
+ margin-top: 20px;
+ /* margin: 0 auto;  */
+ gap:20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
