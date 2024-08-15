@@ -255,11 +255,16 @@ opacity: 0px;
 }
 /* bmi table */
 .bmi{
+ max-width:1440px;
+ height: 487px;
  
+
 }
 .bmi-table{
   margin-top: 100px;
+ margin-left:150px;
 }
+
 .bmi-title{
   font-weight: 900;
   font-size: 1.75rem;
@@ -271,12 +276,46 @@ table{
   margin-top:30px;
 }
 th{
-  text-align: left;
+  text-align:center;
+
 }
 table,th,td{
-  border: 1px solid #757575;
+  border: 1px solid #141414;
   border-collapse: collapse;
 }
 th,td{
   padding: 10px;
+}
+.table-title{
+  color:white;
+}
+.calculate-bmi{
+ margin-top:100px;
+}
+.bmi-container{
+  display: flex;
+  gap:175px;
+ 
+}
+form{
+  margin-top:20px;
+
+}
+.blank-box{
+  padding: 13px 30px ;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+}
+.acttivity{
+  padding: 13px 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+width:577px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
 }

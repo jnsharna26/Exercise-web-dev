@@ -108,34 +108,53 @@
           based on height and weight. It can be used to place a person in categories ranging from underweight to obese.
         </p>
       </div>
-      <div class="bmi-table">
-        <h5 class="bmi-title">BMI Calculator Chart</h5>
-        <table>
-          <tr>
-            <th>BMI</th>
-            <th>Weight Status</th>
-          </tr>
-          <tr>
-            <td>Below 18.5</td>
-            <td>Underweight</td>
+      <div class="bmi-container">
+        <div class="bmi-table">
+          <h5 class="bmi-title">BMI Calculator Chart</h5>
+          <table>
+            <tr class="table-title">
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </tr>
+            <tr class="text-light-gray">
+              <td>Below 18.5</td>
+              <td>Underweight</td>
 
-          </tr>
-          <tr>
-            <td>18.5 - 24.9</td>
-            <td>Healthy</td>
+            </tr>
+            <tr class="text-light-gray">
+              <td>18.5 - 24.9</td>
+              <td>Healthy</td>
 
-          </tr>
-          <tr>
-            <td>25.0 - 29.9</td>
-            <td>Overweight</td>
-          </tr>
-          <tr>
-            <td>30.0 - and Above</td>
-            <td>Obese</td>
-          </tr>
-        </table>
+            </tr>
+            <tr class="text-light-gray">
+              <td>25.0 - 29.9</td>
+              <td>Overweight</td>
+            </tr>
+            <tr class="text-light-gray">
+              <td>30.0 - and Above</td>
+              <td>Obese</td>
+            </tr>
+          </table>
+        </div>
+        <div class="calculate-bmi">
+          <h5 class="bmi-title">Calculate your BMI</h5>
+          <p class="section-description text-light-gray">Calculate BMI by dividing weight in pounds (lb) by height in
+            inches (in)
+            squared
+            and multiplying by a conversion factor
+            of 703.</p>
+          <form action="">
+            <input type="text" class="blank-box text-light-gray" placeholder="Height/cm">
+            <input type="text" class="blank-box text-light-gray" placeholder="Weight/kg"><br>
+            <input type="text" class="blank-box text-light-gray" placeholder="Age">
+            <input type="text" class="blank-box text-light-gray" placeholder="Sex"><br>
+            <input type="text" class="acttivity text-light-gray" placeholder="Select an activity factor"><br>
+            <button class=" btn-primery">Calculate</button>
+          </form>
+
+        </div>
+
       </div>
-
     </section>
   </main>
 </body>
