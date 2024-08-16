@@ -33,7 +33,9 @@ display: flex;
   font-style: italic;
   color: rgba(230, 83, 60, 1);
 }
-
+.nav-hamburger-menu{
+  display: none;
+}
 .navbar{
 
   justify-content: space-between;
@@ -65,6 +67,7 @@ border-radius: 15px;
 background-color:  rgba(230, 83, 60, 1);
 padding:8px 20px
 }
+
 /* banner styles */
 .banner{
   justify-content: space-between;
@@ -444,10 +447,11 @@ padding: 66px 190px 79px 190px;
 width: 443px;
 height: 176px;
 margin-right: 30px;
-
+margin-top: 20px;
 }
 .ins-description{
 color: rgba(255, 255, 255, 0.5);
+margin-top: 20px;
 }
 .link-list{
 list-style: none;
